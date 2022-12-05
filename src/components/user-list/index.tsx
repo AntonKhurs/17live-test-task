@@ -103,7 +103,7 @@ const AppUserList: React.FC<{}> = () => {
                 transform: `translateY(${user.rank * 65 + "px"})`,
               }}>
                 <Container>
-                  <AppUserRow user={user} index={index + 1}></AppUserRow>
+                  <AppUserRow user={user} index={user.rank + 1}></AppUserRow>
                 </Container>
               </ListItem>
             ))}
