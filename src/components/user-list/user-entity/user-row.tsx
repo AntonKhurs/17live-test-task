@@ -10,7 +10,8 @@ const Ranking = styled.span`
 
 const Avatar = styled.img`
   border-radius: 50%;
-  max-height: 50px;
+  height: 50px;
+  width: 50px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
 `;
